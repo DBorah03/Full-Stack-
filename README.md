@@ -1,2 +1,2 @@
 # Full-Stack-
-My journey towards learning full stack
+My journey towards learning full stack.
