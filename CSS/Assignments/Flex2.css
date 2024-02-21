@@ -1,0 +1,13 @@
+#container {
+  height: 30px;
+  width: 690px;
+  border: 2px solid lightblue;
+  display: flex;
+  padding-top: 9px;
+  padding-left: 3px;
+  border-radius: 9px;
+  background-color: peachpuff;
+}
+.inner {
+  margin-right: 12px;
+}
