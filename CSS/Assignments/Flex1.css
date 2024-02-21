@@ -1,0 +1,21 @@
+#container {
+    height: 600px;
+    width: 600px;
+    display: flex;
+    border: 2px solid rgb(0, 174, 255);
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around ;
+    border-radius: 9px;
+}
+
+.inner{
+    font-size: 60px;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 9px;
+    background-color: grey;
+
+}
