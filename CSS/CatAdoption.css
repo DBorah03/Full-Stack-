@@ -1,0 +1,31 @@
+h2 {
+  color: brown;
+}
+span {
+  color: rgb(232, 44, 44);
+}
+#pets {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+img {
+  width: 100%;
+  border-radius: 15px;
+}
+.card {
+  width: 51%;
+  border: 2px solid black;
+  padding: 21px;
+  border-radius: 15px;
+}
+h4{
+  color: lightseagreen;
+  display: grid;
+  justify-content: end;
+}
+body{
+  background-color: aliceblue;
+}
