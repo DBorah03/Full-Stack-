@@ -1,0 +1,12 @@
+.container {
+  background-color: aliceblue;
+}
+.container-sm {
+  background-color: lightskyblue;
+}
+.container-md {
+  background-color: aquamarine;
+}
+.container-xl {
+  background-color: aqua;
+}
