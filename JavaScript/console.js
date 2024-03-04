@@ -6,5 +6,5 @@ let b = 6;
 
 sum = a + b;
 product = a * b;
-console.log("Sum is :", sum);
-console.log(`Product is ${product}`);
+console.log("Sum is:", sum);
+console.log(`Product is: ${product}`);
