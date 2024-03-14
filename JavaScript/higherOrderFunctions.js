@@ -6,4 +6,4 @@ function multipleGreet(func, n) {
 let greet = function () {
   console.log("hello");
 };
-multipleGreet(greet, 3);
+multipleGreet(greet, 6);
