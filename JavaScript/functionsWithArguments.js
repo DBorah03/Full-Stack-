@@ -23,3 +23,4 @@ function table(a) {
 }
 table(3);
 table(9);
+table(15);
