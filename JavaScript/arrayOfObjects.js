@@ -14,12 +14,19 @@ let classInfo = [
     age: 27,
     sex: "male",
   },
+  {
+    name: "Blundy",
+    age: 26,
+    sex: "male",
+  },
 ];
 
 console.log(classInfo);
 console.log(classInfo[0]);
 console.log(classInfo[1]);
 console.log(classInfo[2]);
+console.log(classInfo[3]);
 console.log(classInfo[0].name);
 console.log(classInfo[1].name);
 console.log(classInfo[2].name);
+console.log(classInfo[3].name);
