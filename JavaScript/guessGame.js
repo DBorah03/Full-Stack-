@@ -13,8 +13,8 @@ while (true) {
     console.log("You are right! Congrats!! The random number is:", random);
     break;
   } else if (guess < random) {
-    guess = prompt("Hint: You guessed a little lower, try again");
+    guess = prompt("Hint: You guessed a little lower, try again.");
   } else {
-    guess = prompt("Hint: You guessed a little higher, try again");
+    guess = prompt("Hint: You guessed a little higher, try again.");
   }
 }
