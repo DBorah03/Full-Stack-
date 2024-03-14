@@ -4,6 +4,6 @@ let sum = function (a, b) {
 console.log(sum(3, 9));
 
 let name = function () {
-  console.log("Dhiraj");
+  console.log("Dhiraj Borah");
 };
 name();
