@@ -1,8 +1,5 @@
 import "./App.css";
-
-function Title() {
-  return <h1>I am Dhiraj Borah</h1>;
-}
+import Title from "./Title";
 
 function App() {
   return (
