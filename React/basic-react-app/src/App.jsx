@@ -2,12 +2,15 @@ import "./App.css";
 import Title from "./Title";
 
 function App() {
+  let job = "software developer";
   return (
-    <div>
+    <>
       <button>Hello World!</button>
       <Title />
       <p>This is my story</p>
-    </div>
+      <p>I am a {job}</p>
+      <p>3*3 is {3 * 3}</p>
+    </>
   );
 }
 
