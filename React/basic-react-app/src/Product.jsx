@@ -1,12 +1,11 @@
 import "./Product.css";
-
-function Product({ title, price }) {
-  let styles = { backgroundColor: price > 3000 ? "yellow" : "" };
+import Price from "./Price.jsx";
+function Product({ title }) {
   return (
-    <div className="Product" style={styles}>
-      <h2>{title}</h2>
-      <h3>Price is: {price}</h3>
-      {price > 3000 ? <p>21% discount</p> : ""}
+    <div className="Product">
+      <h4>{title}</h4>
+      <p>Description</p>
+      <Price oldPrice="9547" newPrice="7251" />
     </div>
   );
 }
