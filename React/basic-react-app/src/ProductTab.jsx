@@ -1,12 +1,12 @@
-import Product from "./Product.jsx";
+import Product from "./Product";
 
 function ProductTab() {
   return (
     <>
-      <Product title="Logitech MX Master" />
-      <Product title="Apple Pencil (2nd Gen)" />
-      <Product title="Zebronics Zeb-transformer" />
-      <Product title="Portronics Toad 23" />
+      <Product title="Logitech MX Master" idx={0} />
+      <Product title="Apple Pencil (2nd Gen)" idx={1} />
+      <Product title="Zebronics Zeb-transformer" idx={2} />
+      <Product title="Portronics Toad 23" idx={3} />
     </>
   );
 }
