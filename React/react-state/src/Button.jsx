@@ -1,16 +1,22 @@
-function printHello() {
+function handleClick() {
   console.log("Hello!");
 }
 
-function printBye() {
-  console.log("Bye");
+function handleMOuseOver() {
+  console.log("Bye!");
 }
 
+function handleDblClick() {
+  console.log("you double clicked");
+}
 export default function Button() {
   return (
     <>
-      <button onClick={printHello}>Click me</button>
-      <p onClick={printBye}>This a demo of click events</p>
+      <button onClick={handleClick}>Click me</button>
+      <p onMouseOver={handleMOuseOver}>
+        This is a demo for click and non-click events
+      </p>
+      <button onDoubleClick={handleDblClick}>Double Click</button>
     </>
   );
 }
