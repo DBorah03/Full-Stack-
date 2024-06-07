@@ -2,9 +2,12 @@ import { useState } from "react";
 
 export default function Counter() {
   let [count, setCount] = useState(0);
+  console.log("component was rendered");
 
   let inCount = () => {
-    setCount(count + 1);
+    setCount((curCount) => {
+      return curCount + 3;
+    });
   };
 
   return (
